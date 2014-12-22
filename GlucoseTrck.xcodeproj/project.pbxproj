@@ -422,6 +422,7 @@
 				BE9432641A489B620067EC2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE9432651A489B620067EC2A /* Build configuration list for PBXNativeTarget "GlucoseTrckTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				BE9432671A489B620067EC2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
