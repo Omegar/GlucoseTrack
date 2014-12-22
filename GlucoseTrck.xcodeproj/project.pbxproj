@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE94323F1A489B620067EC2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94323E1A489B620067EC2A /* main.m */; };
+		BE9432421A489B620067EC2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9432411A489B620067EC2A /* AppDelegate.m */; };
+		BE9432451A489B620067EC2A /* GlucoseTrck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE9432431A489B620067EC2A /* GlucoseTrck.xcdatamodeld */; };
+		BE9432481A489B620067EC2A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9432471A489B620067EC2A /* MasterViewController.m */; };
+		BE94324B1A489B620067EC2A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94324A1A489B620067EC2A /* DetailViewController.m */; };
+		BE94324E1A489B620067EC2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE94324C1A489B620067EC2A /* Main.storyboard */; };
+		BE9432501A489B620067EC2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE94324F1A489B620067EC2A /* Images.xcassets */; };
+		BE9432531A489B620067EC2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9432511A489B620067EC2A /* LaunchScreen.xib */; };
+		BE94325F1A489B620067EC2A /* GlucoseTrckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94325E1A489B620067EC2A /* GlucoseTrckTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE9432591A489B620067EC2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9432311A489B620067EC2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9432381A489B620067EC2A;
+			remoteInfo = GlucoseTrck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE9432391A489B620067EC2A /* GlucoseTrck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucoseTrck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE94323D1A489B620067EC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE94323E1A489B620067EC2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE9432401A489B620067EC2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE9432411A489B620067EC2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE9432441A489B620067EC2A /* GlucoseTrck.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GlucoseTrck.xcdatamodel; sourceTree = "<group>"; };
+		BE9432461A489B620067EC2A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BE9432471A489B620067EC2A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BE9432491A489B620067EC2A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BE94324A1A489B620067EC2A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BE94324D1A489B620067EC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE94324F1A489B620067EC2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE9432521A489B620067EC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE9432581A489B620067EC2A /* GlucoseTrckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoseTrckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE94325D1A489B620067EC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE94325E1A489B620067EC2A /* GlucoseTrckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlucoseTrckTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9432361A489B620067EC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9432551A489B620067EC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9432301A489B620067EC2A = {
+			isa = PBXGroup;
+			children = (
+				BE94323B1A489B620067EC2A /* GlucoseTrck */,
+				BE94325B1A489B620067EC2A /* GlucoseTrckTests */,
+				BE94323A1A489B620067EC2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE94323A1A489B620067EC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE9432391A489B620067EC2A /* GlucoseTrck.app */,
+				BE9432581A489B620067EC2A /* GlucoseTrckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE94323B1A489B620067EC2A /* GlucoseTrck */ = {
+			isa = PBXGroup;
+			children = (
+				BE9432401A489B620067EC2A /* AppDelegate.h */,
+				BE9432411A489B620067EC2A /* AppDelegate.m */,
+				BE9432461A489B620067EC2A /* MasterViewController.h */,
+				BE9432471A489B620067EC2A /* MasterViewController.m */,
+				BE9432491A489B620067EC2A /* DetailViewController.h */,
+				BE94324A1A489B620067EC2A /* DetailViewController.m */,
+				BE94324C1A489B620067EC2A /* Main.storyboard */,
+				BE94324F1A489B620067EC2A /* Images.xcassets */,
+				BE9432511A489B620067EC2A /* LaunchScreen.xib */,
+				BE9432431A489B620067EC2A /* GlucoseTrck.xcdatamodeld */,
+				BE94323C1A489B620067EC2A /* Supporting Files */,
+			);
+			path = GlucoseTrck;
+			sourceTree = "<group>";
+		};
+		BE94323C1A489B620067EC2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE94323D1A489B620067EC2A /* Info.plist */,
+				BE94323E1A489B620067EC2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE94325B1A489B620067EC2A /* GlucoseTrckTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE94325E1A489B620067EC2A /* GlucoseTrckTests.m */,
+				BE94325C1A489B620067EC2A /* Supporting Files */,
+			);
+			path = GlucoseTrckTests;
+			sourceTree = "<group>";
+		};
+		BE94325C1A489B620067EC2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE94325D1A489B620067EC2A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE9432381A489B620067EC2A /* GlucoseTrck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9432621A489B620067EC2A /* Build configuration list for PBXNativeTarget "GlucoseTrck" */;
+			buildPhases = (
+				BE9432351A489B620067EC2A /* Sources */,
+				BE9432361A489B620067EC2A /* Frameworks */,
+				BE9432371A489B620067EC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlucoseTrck;
+			productName = GlucoseTrck;
+			productReference = BE9432391A489B620067EC2A /* GlucoseTrck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE9432571A489B620067EC2A /* GlucoseTrckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9432651A489B620067EC2A /* Build configuration list for PBXNativeTarget "GlucoseTrckTests" */;
+			buildPhases = (
+				BE9432541A489B620067EC2A /* Sources */,
+				BE9432551A489B620067EC2A /* Frameworks */,
+				BE9432561A489B620067EC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE94325A1A489B620067EC2A /* PBXTargetDependency */,
+			);
+			name = GlucoseTrckTests;
+			productName = GlucoseTrckTests;
+			productReference = BE9432581A489B620067EC2A /* GlucoseTrckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9432311A489B620067EC2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Gareth Kavanagh";
+				TargetAttributes = {
+					BE9432381A489B620067EC2A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BE9432571A489B620067EC2A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BE9432381A489B620067EC2A;
+					};
+				};
+			};
+			buildConfigurationList = BE9432341A489B620067EC2A /* Build configuration list for PBXProject "GlucoseTrck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE9432301A489B620067EC2A;
+			productRefGroup = BE94323A1A489B620067EC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE9432381A489B620067EC2A /* GlucoseTrck */,
+				BE9432571A489B620067EC2A /* GlucoseTrckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE9432371A489B620067EC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE94324E1A489B620067EC2A /* Main.storyboard in Resources */,
+				BE9432531A489B620067EC2A /* LaunchScreen.xib in Resources */,
+				BE9432501A489B620067EC2A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9432561A489B620067EC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9432351A489B620067EC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE94324B1A489B620067EC2A /* DetailViewController.m in Sources */,
+				BE9432481A489B620067EC2A /* MasterViewController.m in Sources */,
+				BE9432421A489B620067EC2A /* AppDelegate.m in Sources */,
+				BE9432451A489B620067EC2A /* GlucoseTrck.xcdatamodeld in Sources */,
+				BE94323F1A489B620067EC2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9432541A489B620067EC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE94325F1A489B620067EC2A /* GlucoseTrckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE94325A1A489B620067EC2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE9432381A489B620067EC2A /* GlucoseTrck */;
+			targetProxy = BE9432591A489B620067EC2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE94324C1A489B620067EC2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE94324D1A489B620067EC2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE9432511A489B620067EC2A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9432521A489B620067EC2A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE9432601A489B620067EC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE9432611A489B620067EC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE9432631A489B620067EC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GlucoseTrck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE9432641A489B620067EC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GlucoseTrck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE9432661A489B620067EC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlucoseTrckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlucoseTrck.app/GlucoseTrck";
+			};
+			name = Debug;
+		};
+		BE9432671A489B620067EC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlucoseTrckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlucoseTrck.app/GlucoseTrck";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9432341A489B620067EC2A /* Build configuration list for PBXProject "GlucoseTrck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9432601A489B620067EC2A /* Debug */,
+				BE9432611A489B620067EC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9432621A489B620067EC2A /* Build configuration list for PBXNativeTarget "GlucoseTrck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9432631A489B620067EC2A /* Debug */,
+				BE9432641A489B620067EC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE9432651A489B620067EC2A /* Build configuration list for PBXNativeTarget "GlucoseTrckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9432661A489B620067EC2A /* Debug */,
+				BE9432671A489B620067EC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE9432431A489B620067EC2A /* GlucoseTrck.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE9432441A489B620067EC2A /* GlucoseTrck.xcdatamodel */,
+			);
+			currentVersion = BE9432441A489B620067EC2A /* GlucoseTrck.xcdatamodel */;
+			path = GlucoseTrck.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE9432311A489B620067EC2A /* Project object */;
+}
